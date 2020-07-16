@@ -1,23 +1,26 @@
+
+
 header {
-    background-color: #FFF2B6;
     padding: 20px 0;
 }
 
 .caixa {
     width: 940px;
     position: relative;
+    padding: 0 5px;
     margin: 0 auto;
 }
 
 nav {
     position: absolute;
-    top: 110px;
-    right: 0;
+    top: 90px;
+    right: 50%;
+
 }
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 50px;
 }
 
 nav a {
@@ -29,8 +32,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFF2B6;
-    text-decoration: underline;
+    color: #ca97e9;
 }
 
 .itens {
@@ -45,7 +47,7 @@ nav a:hover {
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 30px 30px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -63,6 +65,11 @@ nav a:hover {
     border-color: #ca97e9;
 }
 
+.itens img {
+    width: 100%;
+
+}
+
 .itens h2 {
     font-size: 30px;
     font-weight: bold;
@@ -71,6 +78,14 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
-    padding: 40px 0;
+    background: url("rp.png");
+    padding: 70px 0;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    top: 125px;
 }
