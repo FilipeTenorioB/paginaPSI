@@ -1,33 +1,27 @@
-
-
 header {
-    padding: 20px 0;
+    padding: 0 0 20px 0;
 }
 
-.caixa {
-    width: 940px;
-    position: relative;
-    padding: 0 5px;
-    margin: 0 auto;
+.imagemtopo {
+    height: 200px;
+    width: 1445px;
 }
 
 nav {
     position: absolute;
     top: 90px;
-    right: 50%;
-
 }
 
 nav li {
     display: inline;
-    margin: 0 0 0 50px;
+    margin: 0 1px 0 50px;
 }
 
 nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -49,37 +43,41 @@ nav a:hover {
     margin: 0 1.5%;
     padding: 30px 30px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid #FFF2B6;
     border-radius: 10px;
 }
 
 .itens li:hover {
-    border-color: #FFF2B6;
+    border-color: #ca97e9;
 }
 
 .itens li:hover h2 {
-    font-size: 34px;
+    font-size: 26px;
 }
 
 .itens li:active {
-    border-color: #ca97e9;
+    border-color: #000000;
 }
 
 .itens img {
     width: 100%;
-
 }
 
 .itens h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    padding-bottom: 5%;
 }
 
+.descricao-item {
+    padding-top: 5%;
+}
 
 footer {
     text-align: center;
     background: url("rp.png");
     padding: 70px 0;
+    height: 200px;
 }
 
 .copyright {
@@ -87,5 +85,7 @@ footer {
     font-weight: bold;
     color: #000000;
     position: relative;
-    top: 125px;
+    top: 250px;
+    height: 20%;
+    padding-bottom: 30px;
 }
